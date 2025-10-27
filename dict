@@ -1,0 +1,20 @@
+# def  get_friendly_dict(friend_list):
+#     friendly_list={}
+#     for a,b in friends_list:
+#         if a not in friend_list:
+#             friendly_list[a]=set()
+#         if b not in friend_list:
+#             friendly_list[b]=set()
+        
+#         friendly_list[a].add(b)
+#         friendly_list[b].add(a)
+#         print(friendly_list)
+
+#     return friendly_list
+# friends_list=[('Alice','Bob'),('Bob','Charlie'),('Charlie','Alice'),('David','Alice'),('David','Charlie')]
+# print(get_friendly_dict(friends_list))
+
+dict = {'one':
+        {'two':
+         {'three':
+          {'four':'five'}}}}
